@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Inteligência Artificial</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Sobre</a></li>
+				<li><a href="#">Serviços</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section class="hero">
+		<div class="hero-content">
+			<h1>Inteligência Artificial</h1>
+			<p>Descubra como a inteligência artificial está transformando o mundo</p>
+			<a href="#" class="button">Saiba Mais</a>
+		</div>
+	</section>
+
+	<section class="about">
+		<div class="about-content">
+			<h2>Sobre Nós</h2>
+			<p>Somos uma empresa especializada em soluções de inteligência artificial para empresas de diversos segmentos. Oferecemos serviços de consultoria, desenvolvimento de software e treinamento.</p>
+		</div>
+		<div class="about-image">
+			<img src="https://images.unsplash.com/photo-1536892190507-4f37703a5127?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Sobre Nós">
+		</div>
+	</section>
+
+	<section class="services">
+		<h2>Nossos Serviços</h2>
+		<ul>
+			<li>
+				<h3>Consultoria em IA</h3>
+				<p>Nossa equipe de consultores pode ajudá-lo a identificar oportunidades de implementação de IA em sua empresa.</p>
+			</li>
+			<li>
+				<h3>Desenvolvimento de Software</h3>
+				<p>Nós desenvolvemos software personalizado para atender às necessidades específicas de sua empresa.</p>
+			</li>
+			<li>
+				<h3>Treinamento em IA</h3>
+				<p>Oferecemos treinamentos personalizados em inteligência artificial para capacitar sua equipe.</p>
+			</li>
+		</ul>
+	</section>
+
+	<section class="contact">
+		<h2>Entre em Contato</h2>
+		<form action="#">
+			<label for="name">Nome:</label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="email">E-mail:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="message">Mensagem:</label>
+			<textarea id="message" name="message" required></textarea>
+
+			<button type="submit">Enviar</button>
+	
